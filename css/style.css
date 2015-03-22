@@ -1,3 +1,8 @@
 .splash {
-	background-image: url(img/splash_fans.jpg);
+	min-width: 100%;
+	min-height: 600px;
+	/*background: -webkit-linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url('../img/splash_fans.jpg') no-repeat;*/
+	/*background: -o-linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url('../img/splash_fans.jpg') no-repeat;*/
+	background: linear-gradient(rgba(144, 7, 15, 0.75), rgba(144, 7, 15, 0.75)), url('../img/splash_fans.jpg') no-repeat;
+	background-size: 1536px 900px;
 }
